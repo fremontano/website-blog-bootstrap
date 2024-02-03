@@ -20,6 +20,7 @@ body {
 /* navbar  */
 .navbar {
     padding: 1.5rem 0px;
+    transition: all 0.5s ease-in-out;
 }
 
 .navbar a {
@@ -50,6 +51,12 @@ body {
     background-color: #933cbe;
 }
 
+
+.navbar-sticky {
+    opacity: 0.9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
 /* header  */
 
 .header {
@@ -65,4 +72,25 @@ body {
 
 .hero .lead {
     line-height: 1.7;
+}
+
+
+
+@media (max-width: 1000px) {
+
+    .hero .img-container {
+        display: flex;
+        justify-content: center;
+    }
+
+
+
+
+    .hero .text-container {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        border: 1px solid white;
+
+    }
 }
