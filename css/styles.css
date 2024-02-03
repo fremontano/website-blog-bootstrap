@@ -111,3 +111,34 @@ body {
 .modal-dialog {
     max-width: 1040px;
 }
+
+/* dowload  */
+.dowload {
+    background-image: url('../images/download-background.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.mt-7 {
+    margin-top: 7rem;
+}
+
+
+
+
+@media (max-width:1000px) {
+
+    .text-container {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-top: 2rem;
+    }
+
+    .image-container {
+        display: flex;
+        justify-content: center;
+    }
+}
