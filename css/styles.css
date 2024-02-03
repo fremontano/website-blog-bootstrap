@@ -74,7 +74,9 @@ body {
     line-height: 1.7;
 }
 
-
+.icons .color-icon {
+    color: var(--primary);
+}
 
 @media (max-width: 1000px) {
 
@@ -93,4 +95,19 @@ body {
         border: 1px solid white;
 
     }
+}
+
+
+
+/* details  */
+
+
+.color-list {
+    color: var(--primary);
+}
+
+
+/* modal  */
+.modal-dialog {
+    max-width: 1040px;
 }
