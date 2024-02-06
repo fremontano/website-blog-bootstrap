@@ -142,3 +142,60 @@ body {
         justify-content: center;
     }
 }
+
+/* location  */
+
+.map iframe {
+    left: 0;
+    top: 0;
+    height: 400px;
+    width: 100%;
+    border: none;
+    ;
+}
+
+
+/* details card  */
+
+.card {
+    margin-bottom: 20px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s;
+}
+
+.card:hover img {
+    transform: scale(1.1);
+}
+
+.card .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    /* Fondo oscuro con opacidad */
+    color: white;
+    opacity: 0;
+    transition: opacity 0.3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card:hover .overlay {
+    opacity: 1;
+}
+
+.card-title a {
+    color: white;
+    text-decoration: none;
+}
